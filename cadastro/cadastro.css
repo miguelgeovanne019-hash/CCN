@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Open Sans", Arial, sans-serif;
+    background: linear-gradient(120deg, #1680ff 0%, #75adff 45%, #f2f6ff 100%);
+}
+
+/* Cabeçalho */
+header {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.logo span,
+.logo strong {
+    color: white;
+}
+
+/* Área principal */
+main {
+    min-height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+/* Caixa de cadastro */
+.caixa {
+    width: 100%;
+    max-width: 410px;
+    background: white;
+    padding: 18px 32px 34px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Título */
+.caixa h3 {
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    color: #000a75;
+    margin-bottom: 28px;
+}
+
+/* Opções de cadastro */
+.caixa a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 54px;
+    margin-bottom: 18px;
+    padding: 0 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 800;
+    font-style: italic;
+    color: white;
+    transition: 0.2s;
+}
+
+/* Contratantes */
+.contratantes {
+    background: #ff9d00;
+}
+
+.contratantes::after {
+    content: "→";
+    font-size: 23px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Contratados */
+.contratados {
+    background: #087cff;
+    margin-bottom: 0 !important;
+}
+
+.contratados::after {
+    content: "→";
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* Efeito ao passar o mouse */
+.caixa a:hover {
+    transform: translateY(-3px);
+    filter: brightness(1.05);
+}
+
+/* Ajuste para celular */
+@media (max-width: 480px) {
+    .caixa {
+        padding: 20px;
+    }
+
+    .caixa h3 {
+        font-size: 21px;
+    }
+
+    .caixa a {
+        font-size: 19px;
+        padding: 0 18px;
+    }
+}

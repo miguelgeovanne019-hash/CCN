@@ -1,0 +1,74 @@
+Projeto CCN — APIs e Serviços Utilizados
+
+----------------Descrição------------------
+
+O CCN (Contratantes e Contratados Net) é uma plataforma desenvolvida com o objetivo de facilitar a conexão entre pessoas
+que necessitam contratar serviços e profissionais que oferecem seus serviços.
+Para disponibilizar suas principais funcionalidades, o projeto poderá utilizar diferentes APIs e serviços externos, 
+responsáveis por recursos como autenticação de usuários, localização, notificações, comunicação e pagamentos.
+
+----------------------APIs e Serviços------------------------------
+
+API / Serviço| Finalidade no CCN| Prioridade
+
+Firebase Authentication| Realizar o cadastro, login e autenticação dos usuários.| Alta
+Mapbox| Disponibilizar recursos de mapas e localização de clientes e prestadores.| Alta
+Firebase Cloud Messaging| Enviar notificações sobre propostas, mensagens e atualizações de serviços.| Alta
+Stream Chat| Permitir a comunicação por mensagens entre contratantes e contratados.| Alta
+Mercado Pago| Realizar pagamentos e transações por Pix.| Alta
+BrasilAPI| Realizar consultas de informações relacionadas a CPF e CNPJ, conforme os recursos disponibilizados pela API.| 
+Média
+PagBank| Oferecer uma alternativa para implementação de pagamentos e cobranças.| Média
+
+Firebase Authentication
+
+O Firebase Authentication será utilizado para implementar o sistema de cadastro e login dos usuários. O serviço permite realizar a autenticação de forma integrada à aplicação, possibilitando o controle do acesso às funcionalidades da plataforma.
+
+"Firebase" (https://reference-url-citation.invalid/0)
+
+Mapbox
+
+O Mapbox será utilizado para fornecer recursos relacionados a mapas e localização. No CCN, poderá auxiliar na localização de contratantes e prestadores de serviços, facilitando a busca por profissionais disponíveis em determinadas regiões.
+
+"Mapbox" (https://reference-url-citation.invalid/1)
+
+Firebase Cloud Messaging
+
+O Firebase Cloud Messaging (FCM) será utilizado para o envio de notificações aos usuários. Entre as possíveis notificações estão novas propostas, mensagens recebidas e atualizações relacionadas aos serviços contratados.
+
+Stream Chat
+
+O Stream Chat será utilizado para implementar um sistema de comunicação por mensagens entre contratantes e contratados. Dessa forma, os usuários poderão conversar e trocar informações relacionadas aos serviços.
+
+"Stream Chat" (https://reference-url-citation.invalid/2)
+
+Mercado Pago
+
+O Mercado Pago poderá ser utilizado para realizar pagamentos e transações por Pix dentro da plataforma. Sua integração permitirá disponibilizar recursos relacionados ao processamento dos pagamentos realizados pelos usuários.
+
+"Mercado Pago Developers" (https://reference-url-citation.invalid/3)
+
+BrasilAPI
+
+A BrasilAPI poderá ser utilizada para realizar consultas relacionadas a CPF e CNPJ, utilizando os dados disponibilizados por seus serviços. Essa integração poderá auxiliar no preenchimento e na consulta de informações durante determinados processos da plataforma.
+
+"BrasilAPI" (https://reference-url-citation.invalid/4)
+
+PagBank
+
+O PagBank poderá ser utilizado como uma alternativa para o sistema de pagamentos do CCN, oferecendo recursos para pagamentos e cobranças.
+
+"PagBank Developers" (https://reference-url-citation.invalid/5)
+
+--------------------------Observações-----------------------------
+
+As APIs e serviços apresentados foram selecionados de acordo com as necessidades do projeto CCN. A utilização de cada serviço
+dependerá da implementação e dos requisitos definidos durante o desenvolvimento da plataforma.
+Também é importante considerar que alguns serviços possuem limites de utilização e diferentes planos, podendo gerar custos
+conforme o crescimento da aplicação.
+
+-------------------Conclusão----------------
+
+A utilização dessas APIs permitirá que o CCN disponha de recursos importantes para seu funcionamento, como autenticação,
+localização, notificações, comunicação e pagamentos. Dessa forma, os serviços externos contribuem para o desenvolvimento de
+uma plataforma mais completa e adequada às necessidades de contratantes e prestadores de serviços.

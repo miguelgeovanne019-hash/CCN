@@ -1,0 +1,6 @@
+    <style>
+        body { font-family: Arial; max-width: 600px; margin: 50px auto; padding: 20px; }
+        input, button { width: 100%; padding: 12px; margin: 8px 0 20px; box-sizing: border-box; }
+        button { background: #351064; color: white; border: 0; border-radius: 5px; }
+        a { color: #351064; text-decoration: none; }
+    </style>

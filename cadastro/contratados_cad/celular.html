@@ -1,11 +1,11 @@
-**celular**
+
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <title>CCN - Celular</title>
-<link rel="stylesheet" href="css.cll">
+<link rel="stylesheet" href="cll.css">
 
     
 </head>
@@ -14,14 +14,21 @@
 
 <h2>CCN</h2>
 
-<a href="verificacao.html">← Voltar</a>
+
 
 <h1>Informe seu celular</h1>
 
 <p>Informe seu número para receber o código por SMS.</p>
 
 <label>Celular</label>
-<input type="tel" placeholder="(00) 00000-0000">
+<input type="tel"
+ placeholder="(00) 00000-0000"
+ maxlength="15"
+oninput="this.value = this.value.replace(/\D/g, '')">
+
+<a href="verificacaoE.html">
+    <button>Anterior</button>
+</a>
 
 <a href="verificacaoCLL.html">
     <button>Próximo</button>

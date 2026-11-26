@@ -1,4 +1,4 @@
-**cpf**
+
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -6,25 +6,25 @@
     <meta charset="UTF-8">
     <title>CCN - CPF</title>
 
-    <style>
-        body { font-family: Arial; max-width: 600px; margin: 50px auto; padding: 20px; }
-        input, button { width: 100%; padding: 12px; margin: 8px 0 20px; box-sizing: border-box; }
-        button { background: #351064; color: white; border: 0; border-radius: 5px; }
-        a { color: #351064; text-decoration: none; }
-    </style>
+<link rel="stylesheet" href="cpf.css">
+
 </head>
 
 <body>
 
 <h2>CCN</h2>
 
-<a href="#">← Voltar</a>
+
 
 <h1>Informe seu CPF</h1>
 <p>Para começar seu cadastro, informe seu CPF.</p>
 
 <label>CPF</label>
-<input type="text" placeholder="000.000.000-00">
+<input type="text" 
+placeholder="000.000.000-00"
+maxlength="11"
+inputmode="numeric"
+oninput="this.value = this.value.replace(/\D/g, '')">
 
 <a href="nome.html">
     <button>Próximo</button>
